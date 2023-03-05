@@ -536,7 +536,7 @@ a {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 768px) {
   .desktop {
     display: none;
   }
