@@ -1,6 +1,6 @@
 * {
   font-family: "Raleway", sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   outline: none;
   margin: 0;
   box-sizing: border-box;
@@ -461,7 +461,6 @@ a {
 }
 
 @media screen and (max-width: 1220px) {
-
   .rectangle1 article a picture {
     height: 35%;
   }
@@ -473,7 +472,6 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-
   .searchfilters {
     flex-direction: column;
     width: 100%;
