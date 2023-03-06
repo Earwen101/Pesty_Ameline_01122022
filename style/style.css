@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+/* desktop */
 .desktop {
   display: block;
 }
@@ -460,18 +460,17 @@ a {
   color: black;
 }
 
-@media screen and (max-width: 1220px) {
-  .rectangle1 article a picture {
-    height: 35%;
-  }
-
-  .rectangle2 picture {
-    width: 45%;
-    height: 100%;
-  }
+.rectangle1 article a picture {
+  height: 7vw;
 }
 
-@media screen and (max-width: 1024px) {
+.rectangle2 picture {
+  width: 45%;
+  height: 100%;
+}
+
+/* tablette */
+@media screen and (max-width: 992px) and (min-height: 769px) {
   .searchfilters {
     flex-direction: column;
     width: 100%;
@@ -597,6 +596,7 @@ a {
   }
 }
 
+/* telephone */
 @media screen and (max-width: 768px) {
   .desktop {
     display: none;
