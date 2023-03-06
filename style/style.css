@@ -451,6 +451,10 @@ footer {
   padding: 0;
 }
 
+.menu-item ul li:hover {
+  border-color: transparent;
+}
+
 a {
   text-decoration: none;
   color: black;
