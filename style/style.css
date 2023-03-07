@@ -428,11 +428,14 @@ footer {
   display: flex;
   width: 100%;
   height: 100%;
+  justify-content: space-around;
 }
 
 .menu-item {
-  padding: 45px 70px;
-  width: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .menu-item h3 {
@@ -877,6 +880,10 @@ a {
 
   .menu-item {
     padding: 45px 30px;
+  }
+  
+   footer .menu-item {
+    width: 100%
   }
 
   .rectangle1 #grid-1 article a img {
