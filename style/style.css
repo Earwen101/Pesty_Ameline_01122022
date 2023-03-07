@@ -428,14 +428,11 @@ footer {
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-around;
 }
 
 .menu-item {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 45px 70px;
+  width: 100%;
 }
 
 .menu-item h3 {
@@ -475,7 +472,7 @@ a {
 }
 
 /* tablette */
-@media screen and (max-width: 992px) and (min-height: 769px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
   .searchfilters {
     flex-direction: column;
     width: 100%;
@@ -880,10 +877,6 @@ a {
 
   .menu-item {
     padding: 45px 30px;
-  }
-  
-  footer .menu-item {
-    width: 100%
   }
 
   .rectangle1 #grid-1 article a img {
