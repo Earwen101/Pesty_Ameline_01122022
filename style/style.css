@@ -431,13 +431,17 @@ footer {
 }
 
 .menu-item {
-  padding: 45px 70px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-item h3 {
   margin-bottom: 20px;
   font-size: 1.13rem;
+  align-self: flex-start;
 }
 
 .menu-item ul {
