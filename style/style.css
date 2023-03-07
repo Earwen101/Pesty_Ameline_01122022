@@ -881,6 +881,10 @@ a {
   .menu-item {
     padding: 45px 30px;
   }
+  
+  footer .menu-item {
+    width: 100%
+  }
 
   .rectangle1 #grid-1 article a img {
     height: 100% !important;
